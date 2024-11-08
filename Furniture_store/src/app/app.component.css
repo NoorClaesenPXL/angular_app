@@ -1,0 +1,27 @@
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent; /* Transparent left border */
+    border-right: 50px solid transparent; /* Transparent right border */
+    border-bottom: 100px solid #f06; /* Solid bottom border (the triangle color) */
+    position: absolute; /* Position the triangle absolutely */
+    top: 10%; /* Adjust the position */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust the centering */
+  }
+
+  .rectangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid #f06; /* Transparent left border */
+    border-right: 50px solid #f06; /* Transparent right border */
+    border-bottom: 50px solid #f06; /* Solid bottom border (the triangle color) */
+    border-top: 50px solid #f06; /* Solid bottom border (the triangle color) */
+    position: absolute; /* Position the triangle absolutely */
+    top: 10%; /* Adjust the position */
+    left: 60%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust the centering */
+  }
+  #item{
+    
+  }
